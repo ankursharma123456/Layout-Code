@@ -1,0 +1,96 @@
+<template>
+   
+<div class="c-container">
+    <div class="pages">
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"  padding="around-small">
+            <button class="prev" style="margin-top: 80px;">❮ </button> 
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2" padding="around-small">
+            <lightning-card  title="Teams" icon-name="custom:custom14"  style="width: 350px;" >
+        
+                <div class="slds-var-p-horizontal_small">
+                 <div class="slds-grid slds-wrap" >
+                     <div class="slds-col slds-size_6-of-12">
+         
+                         <img src={image} style="height:140px; width:100px;"/>
+         
+                     </div>
+                     <div class="slds-col slds-size_6-of-12" style="padding: 2px;">
+                       <p class="slds-var-m-bottom_xx-small" ><strong>Profile</strong></p>
+                       <p class="slds-var-m-bottom_xx-small" style="color: blue;" ><b>{name}</b></p>
+                       <p class="slds-var-m-bottom_xx-small" >{position}</p>
+                       <p class="slds-var-m-bottom_xx-small" >{technology}</p>
+                     </div>
+                     
+                 </div>     
+                </div>
+             </lightning-card>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"  padding="around-small">
+            <lightning-card  title="Teams" icon-name="custom:custom14"  style="width: 350px;" >
+        
+                <div class="slds-var-p-horizontal_small">
+                 <div class="slds-grid slds-wrap" >
+                     <div class="slds-col slds-size_6-of-12">
+         
+                         <img src={image1} style="height:140px; width:100px;"/>
+         
+                     </div>
+                     <div class="slds-col slds-size_6-of-12" style="padding: 2px;">
+                       <p class="slds-var-m-bottom_xx-small" ><strong>Profile</strong></p>
+                       <p class="slds-var-m-bottom_xx-small" style="color: blue;" ><b>{name1}</b></p>
+                       <p class="slds-var-m-bottom_xx-small" >{position1}</p>
+                       <p class="slds-var-m-bottom_xx-small" >{technology1}</p>
+                     </div>
+                     
+                 </div>
+            
+                </div>
+             </lightning-card>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"  padding="around-small">
+            <lightning-card  title="Teams" icon-name="custom:custom14"  style="width: 350px;" >
+        
+                <div class="slds-var-p-horizontal_small">
+                 <div class="slds-grid slds-wrap" >
+                     <div class="slds-col slds-size_6-of-12">
+         
+                         <img src={image2} style="height:140px; width:100px;"/>
+         
+                     </div>
+                     <div class="slds-col slds-size_6-of-12" style="padding: 2px;">
+                       <p class="slds-var-m-bottom_xx-small" ><strong>Profile</strong></p>
+                       <p class="slds-var-m-bottom_xx-small" style="color: blue;" ><b>{name2}</b></p>
+                       <p class="slds-var-m-bottom_xx-small" >{position2}</p>
+                       <p class="slds-var-m-bottom_xx-small" >{technology2}</p>
+                     </div>
+                     
+                 </div>
+     
+                </div>
+             </lightning-card>
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"  padding="around-small">
+            <!-- <lightning-icon icon-name="utility:add" alternative-text="Utility image"  title="Image" style="padding-top:80px; "></lightning-icon>  -->
+        </lightning-layout-item>
+        <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="2"  padding="around-small">
+            <div class="slds-col">
+                 
+                     <!-- right arrow button -->
+                    <button class="next" style="margin-top: 80px;">❯ </button> 
+                
+            </div>
+        </lightning-layout-item>
+        
+    </lightning-layout>
+</div>
+<div style="text-align:center">
+    <span class="dot"  >
+        
+    </span>  
+    <span class="dot"></span> 
+    <span class="dot" ></span>
+  </div>
+</div>
+</template>
